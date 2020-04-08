@@ -4,7 +4,6 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 
 /**
  * Created by wangyongan on 2020-04-05.
- * Email wangyongan@xueqiu.com
  */
 @EntityScan
 public class Poetry {

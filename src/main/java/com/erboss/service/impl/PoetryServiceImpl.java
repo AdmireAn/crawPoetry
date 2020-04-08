@@ -15,7 +15,6 @@ import java.util.Random;
 
 /**
  * Created by wangyongan on 2020-04-05.
- * Email wangyongan@xueqiu.com
  */
 @Service
 public class PoetryServiceImpl implements PoetryService {

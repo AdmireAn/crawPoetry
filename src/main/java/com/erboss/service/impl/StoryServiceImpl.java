@@ -17,7 +17,6 @@ import java.util.List;
 
 /**
  * Created by wangyongan on 2020-04-05.
- * Email wangyongan@xueqiu.com
  */
 @Service
 public class StoryServiceImpl implements StoryService {

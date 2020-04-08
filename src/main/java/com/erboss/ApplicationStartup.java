@@ -8,7 +8,6 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 /**
  * Created by wangyongan on 2020-04-04.
- * Email wangyongan@xueqiu.com
  */
 @EnableTransactionManagement//开启事务管理
 @SpringBootApplication

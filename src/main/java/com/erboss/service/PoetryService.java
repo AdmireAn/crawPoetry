@@ -4,7 +4,6 @@ import com.erboss.domain.Poetry;
 
 /**
  * Created by wangyongan on 2020-04-07.
- * Email wangyongan@xueqiu.com
  */
 public interface PoetryService {
 

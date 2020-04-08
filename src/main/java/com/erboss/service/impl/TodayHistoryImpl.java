@@ -13,7 +13,6 @@ import java.util.List;
 
 /**
  * Created by wangyongan on 2020-04-07.
- * Email wangyongan@xueqiu.com
  */
 @Service
 public class TodayHistoryImpl implements TodayHistory {

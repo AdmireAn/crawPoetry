@@ -2,7 +2,6 @@ package com.erboss;
 
 /**
  * Created by wangyongan on 2020-04-05.
- * Email wangyongan@xueqiu.com
  */
 public interface Constant {
     String POETRY_URL = "https://so.gushiwen.org/mingju/Default.aspx?t=&p=";
