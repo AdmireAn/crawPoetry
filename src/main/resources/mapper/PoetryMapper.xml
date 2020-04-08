@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.com.erboss.dao.PoetryDao">
+
+    <resultMap id="poetryMap" type="com.erboss.domain.Poetry">
+        <id property="id" column="id"/>
+        <result property="title" column="title"/>
+        <result property="content" column="content"/>
+    </resultMap>
+
+    <select id="get" resultType="com.erboss.domain.Poetry">
+        SELECT * from poetry where id=1
+    </select>
+
+    <insert id="insert" parameterType="com.erboss.domain.Poetry">
+        insert ignore into poetry(content, title) values(#{content}, #{title})
+    </insert>
+
+    <select id="selectById" resultMap="poetryMap" parameterType="java.lang.Integer">
+        SELECT * from poetry where id=#{id}
+    </select>
+
+    <select id="select" resultMap="poetryMap" parameterType="java.lang.String">
+        SELECT * from poetry where content=#{content}
+    </select>
+</mapper>
