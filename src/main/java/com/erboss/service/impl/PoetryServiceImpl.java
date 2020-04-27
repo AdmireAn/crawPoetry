@@ -33,7 +33,7 @@ public class PoetryServiceImpl implements PoetryService {
         int id;
         while (poetry == null){
             id = df.nextInt(950);
-            poetry = poetryDao.selectById(id);
+            //poetry = poetryDao.selectById(id);
         }
         return poetry;
     }
